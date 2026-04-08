@@ -1,0 +1,88 @@
+🏠 Previsão de Preço de Imóveis com Machine Learning
+📌 Sobre o Projeto
+
+Este projeto tem como objetivo prever o valor de imóveis com base em características estruturais e geográficas, utilizando técnicas de Machine Learning.
+
+Além da construção do modelo, o foco principal foi a análise crítica dos erros, identificando limitações do dataset e oportunidades de melhoria no modelo.
+
+🎯 Objetivo
+
+Desenvolver um modelo de regressão capaz de prever o preço de imóveis e analisar seu desempenho em diferentes faixas de valor.
+
+🧠 Abordagem
+
+O projeto foi estruturado nas seguintes etapas:
+
+Exploração dos dados (EDA)
+Pré-processamento
+Treinamento do modelo (Random Forest)
+Avaliação com múltiplas métricas
+Análise de erro por faixa de valor
+Diagnóstico de problemas no dataset
+📊 Principais Análises
+📌 Distribuição dos dados
+O dataset apresenta desbalanceamento
+Concentração de dados nas faixas intermediárias
+Baixa representatividade nos extremos (valores baixos e altos)
+📌 Erro por faixa de valor
+O modelo apresenta:
+✔ Boa performance em valores médios
+⚠ Maior erro em valores baixos
+Identificado que:
+Parte do erro elevado era causado pelo uso de erro percentual (MAPE)
+Ao utilizar erro absoluto (MAE), o modelo se mostrou mais estável
+📌 Problema identificado no dataset
+Existe um CAP no valor máximo (5)
+Imóveis com valores superiores foram truncados
+
+👉 Impacto:
+
+Introduz ruído no treinamento
+Dificulta a diferenciação entre imóveis de alto valor
+📉 Visualizações
+
+O projeto inclui análises como:
+
+Distribuição de dados por faixa (pd.cut)
+Erro médio por faixa de valor
+Dispersão entre valor real vs erro
+Identificação de outliers
+⚠️ Principais Desafios
+Desbalanceamento do dataset
+Presença de outliers
+Limitação artificial do target (CAP)
+Escolha adequada de métricas de avaliação
+🚀 Possíveis Melhorias
+🔹 Aplicar transformação logarítmica no target
+🔹 Utilizar sample weights para balanceamento
+🔹 Engenharia de features geográficas
+Clusterização por região (latitude/longitude)
+🔹 Testar outros modelos (XGBoost, LightGBM)
+🔹 Tratamento de outliers
+🛠 Tecnologias Utilizadas
+Python
+Pandas
+NumPy
+Scikit-learn
+Matplotlib / Seaborn
+📈 Resultado
+
+O modelo apresentou:
+
+Boa capacidade preditiva nas faixas intermediárias
+Maior dificuldade em regiões com baixa representatividade
+Sensibilidade à métrica utilizada (MAPE vs MAE)
+💡 Principais Aprendizados
+A escolha da métrica pode distorcer completamente a interpretação do modelo
+A distribuição dos dados impacta diretamente a performance
+Problemas no dataset (como CAP) podem ser mais críticos que o modelo em si
+Analisar erro por faixa é essencial em problemas de regressão
+📂 Como executar o projeto
+# Clone o repositório
+git clone <seu-repo>
+
+# Instale as dependências
+pip install -r requirements.txt
+
+# Execute o notebook
+jupyter notebook
