@@ -47,7 +47,6 @@
 
 - Introduz ruído no treinamento
 - Dificulta a diferenciação entre imóveis de alto valor
-📉 Visualizações
 
 ### O projeto inclui análises como:
 
