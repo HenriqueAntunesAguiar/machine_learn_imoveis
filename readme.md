@@ -96,8 +96,7 @@ O modelo apresentou:
 <img width="1187" height="586" alt="image" src="https://github.com/user-attachments/assets/986cbe1a-e739-4d95-977f-c55fec0df490" />
 
 ### Identificação dos maiores erros por faixa de preço analisada do melhor modelo
-<img width="678" height="628" alt="image" src="https://github.com/user-attachments/assets/a3315094-f554-45ba-a4c5-06d323e54a8a" />
-<img width="666" height="544" alt="image" src="https://github.com/user-attachments/assets/fa07619e-7332-426c-9a12-5a503f64181b" />
+<img width="679" height="550" alt="image" src="https://github.com/user-attachments/assets/335bdfc3-35c4-48fe-8110-62d696239b60" />
 
 ### Concentração de Erro por Valor do Imóvel Real
 <img width="679" height="546" alt="image" src="https://github.com/user-attachments/assets/f4b8a2fb-f98f-4074-8e2f-f02522eb6969" />
