@@ -1,4 +1,4 @@
-# 🏠 Previsão de Preço de Imóveis com Machine Learning
+<img width="240" height="900" alt="image" src="https://github.com/user-attachments/assets/8c29a49c-e361-47b3-a368-7edc658bc000" /># 🏠 Previsão de Preço de Imóveis com Machine Learning
 
 ## 📌 Sobre o Projeto
 
@@ -105,7 +105,7 @@ O modelo apresentou:
 ## 📂 Como executar o projeto
 ```
 # Clone o repositório
-git clone <seu-repo>
+git clone https://github.com/HenriqueAntunesAguiar/machine_learn_imoveis.git
 
 # Instale as dependências
 pip install -r requirements.txt
