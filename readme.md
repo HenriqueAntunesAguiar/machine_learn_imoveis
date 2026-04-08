@@ -95,11 +95,11 @@ O modelo apresentou:
 ### Volume de dados por Faixa de Preço do Imóvel
 <img width="1187" height="586" alt="image" src="https://github.com/user-attachments/assets/986cbe1a-e739-4d95-977f-c55fec0df490" />
 
+### Relação Valor do Erro por Faixa de Preço
+<img width="674" height="626" alt="image" src="https://github.com/user-attachments/assets/c52133b7-30d7-437f-a4c2-24c294e85f22" />
+
 ### Identificação dos maiores erros por faixa de preço analisada do melhor modelo
 <img width="679" height="550" alt="image" src="https://github.com/user-attachments/assets/335bdfc3-35c4-48fe-8110-62d696239b60" />
-
-### Concentração de Erro por Valor do Imóvel Real
-<img width="679" height="546" alt="image" src="https://github.com/user-attachments/assets/f4b8a2fb-f98f-4074-8e2f-f02522eb6969" />
 
 
 ## 📂 Como executar o projeto
