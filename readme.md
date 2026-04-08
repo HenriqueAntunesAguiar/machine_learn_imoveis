@@ -98,7 +98,7 @@ O modelo apresentou:
 ### Valor Médio do Erro por Faixa de Preço
 <img width="674" height="626" alt="image" src="https://github.com/user-attachments/assets/c52133b7-30d7-437f-a4c2-24c294e85f22" />
 
-### Identificação da Dispersão dos Erros por Faixa de Preço
+### Identificação da Dispersão dos Erros pelo Preço do Imóvel
 <img width="679" height="550" alt="image" src="https://github.com/user-attachments/assets/335bdfc3-35c4-48fe-8110-62d696239b60" />
 
 
