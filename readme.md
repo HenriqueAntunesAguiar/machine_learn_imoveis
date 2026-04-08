@@ -1,4 +1,4 @@
-<img width="240" height="900" alt="image" src="https://github.com/user-attachments/assets/8c29a49c-e361-47b3-a368-7edc658bc000" /># 🏠 Previsão de Preço de Imóveis com Machine Learning
+# 🏠 Previsão de Preço de Imóveis com Machine Learning
 
 ## 📌 Sobre o Projeto
 
